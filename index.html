@@ -1,0 +1,126 @@
+<!DOCTYPE  html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Freegold.cr</title>
+        <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+        <h1>Freegold.cr</h1>
+        <p>
+            Платформа для подготовки к ОРТ
+        </p>
+        <nav>
+            <a href="#">Главная</a>
+            <a href="#">Предметы</a>
+            <a href="#">Тесты</a>
+            <a href="#">Результаты</a>
+        </nav>
+        <div>
+            <button id="kyrgyzButton">Кыргызча</button>
+            <button id="russianButton">Русский</button>
+        </div>
+
+    <main>
+        <section>
+            <h2>Подготовка к ОРТ</h2>
+            <p>
+                Тренуруйся, проходи тесты и отслеживай свой прогресс.
+            </p>
+            <button>
+                Начать подготовку
+            </button>
+        </section>
+        <section>
+            <h2>Предметы</h2>
+            <article>
+                <h3>Математика</h3>
+                <p>
+                    Решай задачи и улучшай Математические навыки.
+                </p>
+                <button>Начать</button>
+            </article>
+            <article>
+                <h3>Чтение и понимание</h3>
+                <p>
+                    Тренруй понимание текста и работу с информацией.
+                </p>
+                <button>Начать</button>
+            </article>
+            <article>
+                <h3>Граматика</h3>
+                <p>
+                    Проверяй свои знания языка.
+                </p>
+                <button>Начать</button>
+            </article>
+        </section>
+        <section>
+            <h2>Тренировка</h2>
+            <p>
+                Выбери количество вопросов и начни тест.
+            </p>
+            <button>10 вопросов</button>
+            <button>20 вопросов</button>
+            <button>30 вопросов</button>
+        </section>
+        <section>
+            <h2>Твой програесс</h2>
+            <p>
+                Пройдено тестов:0
+            </p>
+            <p>
+                Правилных ответов:0
+            </p>
+            <p>
+                Лучший резултат:0
+            </p>
+        </section>
+        <section id="testScreen">
+            <h2>Тест</h2>
+
+            <p id="questionNumber">
+                Вопрос 1
+            </p>
+            <h3 id="questionText">
+                Здесь будеть вопрос
+            </h3>
+            <div id="answers">
+                <button class="answerButton" data-answer="0">
+                    Ответ 1
+                </button>
+                <button class="answerButton" data-answer="1">
+                    Ответ 2
+                </button>
+                <button class="answerButton" data-answer="2">
+                    Ответ 3
+                </button>
+                <button class="answerButton" data-answer="3">
+                    Ответ 4
+                </button>
+            </div>
+            <p id="answerResul"></p>
+            <button id="checkButton">
+                Ответить
+            </button>
+            <button id="nextButton">
+                Следуший вопрос
+            </button>
+        </section>
+    </main>
+    <footer>
+        <p>
+            FreeGold.cr © 2026
+        </p>
+        <p>
+            Подготовка к ОРТ на русском и кыргызском языках.
+        </p>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</html>
+
+
