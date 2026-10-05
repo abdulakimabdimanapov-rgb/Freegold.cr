@@ -1,18 +1,18 @@
 
 const kyrgyzButton =
-document.getElementByld("kyrgyzButton");
+document.getElementById("kyrgyzButton");
 const russianButton =
-document.getElementByld("russianButton")
+document.getElementById("russianButton")
 
-const testScreen = document.getElementByld("testScreen")
+const testScreen = document.getElementById("testScreen")
 
 const questionNumber =
-document.getElementByld("questionNumber");
+document.getElementById("questionNumber");
 const questionText =
-document.getElementByld("questionText");
+document.getElementById("questionText");
 
 const answerButton =
 document.querySelectorAll(".answerButton");
 
 const checkButtons =
-document.getElementByld ("")
+document.getElementById("")
